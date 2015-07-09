@@ -3,9 +3,12 @@
 
   <link rel="stylesheet" href="meteor-poly.css">
 
+  <script src="/components/webcomponentsjs/webcomponents.min.js"></script>
+
   <!-- Import elements -->
-  <link rel="import" href="../components/polymer/polymer.html" />
-  <script src="/components/webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="/components/polymer/polymer.html" />
+  <link rel="import" href="/components/paper-menu/paper-menu.html" />
+  <link rel="import" href="/components/paper-button/paper-button.html" />
 
 </head>
 
@@ -23,7 +26,7 @@
 
   <p>Paper menu</p>
 
-  <paper-menu multi>
+  <paper-menu>
     <paper-item>Item 0</paper-item>
     <paper-item>Item 1</paper-item>
     <paper-item>Item 2</paper-item>
@@ -33,5 +36,6 @@
 
   <paper-button>just paper</paper-button>
   <paper-button raised>raised paper</paper-button>
+  <paper-button noink>no ink paper</paper-button>
 
 </template>
