@@ -5,7 +5,6 @@ binary-heap@1.0.3
 blaze@2.1.2
 blaze-tools@1.0.3
 boilerplate-generator@1.0.3
-boxxa:polymer@1.0.0
 callback-hook@1.0.3
 check@1.0.5
 ddp@1.1.0
@@ -29,6 +28,7 @@ minifiers@1.1.5
 minimongo@1.0.8
 mobile-status-bar@1.0.3
 mongo@1.1.0
+mquandalle:bower@1.4.1
 observe-sequence@1.0.6
 ordered-dict@1.0.3
 random@1.0.3
