@@ -3,9 +3,9 @@
 
   <link rel="stylesheet" href="meteor-poly.css">
 
-  <!-- Import element -->
-  <link rel="import" href="./bower/polymer/polymer.html" />
-  <link rel="import" href="./bower/google-map/google-map.html" />
+  <!-- Import elements -->
+  <link rel="import" href="../components/polymer/polymer.html" />
+  <script src="/components/webcomponentsjs/webcomponents.js"></script>
 
 </head>
 
@@ -14,14 +14,24 @@
     Experiment with Polymer's web components.
   </p>
 
-  <p>
-    Google map
-  </p>
-  <google-map latitude="21.278773" longitude="-157.828558" fit-to-marker>
-    <google-map-marker latitude="21.278773" longitude="-157.828558"></google-map-marker>
-    <google-map-marker latitude="21.276472" longitude="-157.826025"></google-map-marker>
-    <google-map-marker latitude="21.287389" longitude="-157.840273"></google-map-marker>
-    <google-map-marker latitude="21.2619339" longitude="-157.8202687"></google-map-marker>
-  </google-map>
+  {{> paper}}
 
 </body>
+
+
+<template name="paper">
+
+  <p>Paper menu</p>
+
+  <paper-menu multi>
+    <paper-item>Item 0</paper-item>
+    <paper-item>Item 1</paper-item>
+    <paper-item>Item 2</paper-item>
+  </paper-menu>
+
+  <p>Paper button</p>
+
+  <paper-button>just paper</paper-button>
+  <paper-button raised>raised paper</paper-button>
+
+</template>
