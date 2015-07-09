@@ -3,3 +3,11 @@
 ### Meteor ###
 .meteor/local
 .meteor/meteorite
+
+### Bower ###
+bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+components
