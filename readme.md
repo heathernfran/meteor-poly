@@ -1,3 +1,3 @@
 ##Meteor project with Polymer
 
-Eexperiment with Polymer web components inside Meteor.
+Experiment with Polymer web components inside Meteor.
