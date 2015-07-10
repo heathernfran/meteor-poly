@@ -4,6 +4,8 @@
     "imports": [
         "/components/paper-button/paper-button.html",
         "/components/paper-menu/paper-menu.html",
-        "/components/paper-fab/paper-fab.html"
+        "/components/paper-fab/paper-fab.html",
+        "/components/google-map/google-map.html",
+        "/components/google-map/google-map-marker.html"
     ]
 }
