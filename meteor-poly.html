@@ -11,6 +11,9 @@
   <link rel="import" href="/components/paper-button/paper-button.html" />
   <link rel="import" href="/components/paper-fab/paper-fab.html" />
 
+  <link rel="import" href="/components/google-map/google-map.html" />
+  <link rel="import" href="/components/google-map/google-map-marker.html" />
+
 </head>
 
 <body>
@@ -19,6 +22,8 @@
   </p>
 
   {{> paper}}
+
+  {{> googlemap}}
 
 </body>
 
@@ -42,5 +47,20 @@
   <p>Paper fab</p>
 
   <paper-fab></paper-fab>
+
+</template>
+
+
+<template name="googlemap">
+
+  <p>
+    Google map
+  </p>
+  <google-map latitude="21.278773" longitude="-157.828558" zoom="14" fit-to-marker>
+    <google-map-marker latitude="21.278773" longitude="-157.828558"></google-map-marker>
+    <google-map-marker latitude="21.276472" longitude="-157.826025"></google-map-marker>
+    <google-map-marker latitude="21.287389" longitude="-157.840273"></google-map-marker>
+    <google-map-marker latitude="21.2619339" longitude="-157.8202687"></google-map-marker>
+  </google-map>
 
 </template>
